@@ -58,8 +58,9 @@ function Calender({ date }) {
                   <p
                     key={index}
                     style={{
-                      border: isDateGiven ? "1px solid #c8cfd0" : null,
-                      backgroundColor: isDateGiven ? "#1a5545" : null,
+                      border: isDateGiven ? "1px solid #9999" : null,
+                      backgroundColor: isDateGiven ? "#6666" : null,
+                      borderRadius: isDateGiven ? "3px" : null,
                       minWidth: "50px"
                     }}
                   >

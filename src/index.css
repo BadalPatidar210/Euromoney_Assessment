@@ -18,7 +18,7 @@ code {
 }
 .calender {
   width: 350px;
-  border: 2px solid black;
+  border: 7px solid #c2d0d0;
 }
 .calender .heading {
   display: flex;
@@ -31,4 +31,16 @@ code {
 }
 .calender .days {
   min-width: 50px;
+}
+.calender .days p{
+  min-width: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    height: 100vh;
 }
